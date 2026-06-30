@@ -34,5 +34,15 @@ CREATE TABLE books(
     member_id INT AUTO_INCREMENT ,
     member_name VARCHAR(100) NOT NULL,
     join_date DATE NOT NULL DEFAULT (CURDATE()),PRIMARY KEY(member_id ));
+INSERT INTO members (member_name, join_date)
+VALUES
+('Alice', '2024-01-15'),
+('Bob', '2024-05-20'),
+('Charlie', '2023-09-12'),
+('David', '2024-11-08'),
+('Emma', '2025-02-14'),
+('Frank', '2024-03-25'),
+('Grace', '2022-07-30'),
+('Helen', '2024-08-18');
 
 SELECT * FROM members WHERE YEAR(join_date) = 2024 ORDER BY member_name ASC;
