@@ -7,11 +7,11 @@ CREATE TABLE books(
   in_stock INT DEFAULT 1, PRIMARY KEY(book_id));
   
  INSERT INTO books(title,isbn,price,published_date,in_stock) 
- VALUES('The Hidden Tide','11A',100,'2014-04-18',TRUE),
- ('The Silent Horizon','12B',200,'2006-04-19',TRUE),
- ('Shadows of Time ','14A',300,'2013-03-15',TRUE),
- ('The Crystal Crown','20A',500,'2004-07-13',TRUE),
- ('The Promise of Rain','18DA',400,'2024-02-11',TRUE);
+ VALUES('Hidden Man','11A',566,'2014-04-18',TRUE),
+ ('The Hobbit','12B',100,'2006-04-19',TRUE),
+ ('Dune ','14A',300,'2013-03-15',TRUE),
+ (' Crystal ','20A',999,'2004-07-13',TRUE),
+ (' Rain Drops','18DA',500,'2024-02-11',TRUE);
  
  DESC books;
    
